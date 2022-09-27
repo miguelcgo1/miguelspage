@@ -6,13 +6,12 @@
 
 
 section {
-    height: 500px;
     background-color: white;
     border: solid black 1px;
 }
 
 .hero {
-    background-color: #F3F5F5 ;
+    background-color: #181b1f ;
     height: 100vh; 
     color: white;
     font-size: 40px;
@@ -32,13 +31,12 @@ nav {
 ul {
     display: flex;
     list-style-type: none;
-    width: 500px;
     justify-content: space-between;
 }
 
 li {
     text-decoration: none;
-    margin-left: 10px;
+    margin-right: 30px;
 }
 
 h1 {
@@ -78,4 +76,46 @@ p {
 
 .button:hover {
     background-color:#0017c7 ;
+}
+
+.logo {
+    height: 200px;
+
+}
+
+.container {
+    width: 80%;
+    background-color: #ddd;
+}
+  
+.skills {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+}
+  
+.html {width: 60%; background-color: #9eb9fc;}
+.css {width: 40%; background-color: #9eb9fc;}
+.java {width: 95%; background-color: #9eb9fc;}
+.sql {width: 80%; background-color: #9eb9fc;}
+.c {width: 90%; background-color: #9eb9fc;}
+.cplus {width: 80%; background-color: #9eb9fc;}
+.haskell {width: 70%; background-color: #9eb9fc;}
+.seo {width: 90%; background-color: #9eb9fc;}
+.social {width: 80%; background-color: #9eb9fc;}
+
+
+.sub-section {
+    padding: 60px;
+}
+
+
+.headshot {
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+    padding: 0;
+    width: 300px;
+    border-radius: 450px;
 }
